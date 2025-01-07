@@ -1,4 +1,12 @@
-import { Navbar, Hero, Highlights, Model } from './components';
+import {
+  Navbar,
+  Hero,
+  Highlights,
+  Model,
+  Features,
+  HowItWorks,
+  Footer,
+} from './components';
 
 const App = () => {
   return (
@@ -7,6 +15,9 @@ const App = () => {
       <Hero />
       <Highlights />
       <Model />
+      <Features />
+      <HowItWorks />
+      <Footer />
     </main>
   );
 };
