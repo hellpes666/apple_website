@@ -7,5 +7,9 @@ export default defineConfig({
 
   build: {
     sourcemap: true
+  },
+  
+  server: {
+    host: true // Позволяет доступ к серверу по IP-адресу
   }
 })
